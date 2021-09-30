@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background:url(../images/bg.png) repeat top center; color:#009292; font:normal 12px Arial, Helvetica, sans-serif;}
+body, div, form, h1, h2, h3, h4, h5, p, ul, ol, li{ margin:0; padding:0;}
+#wrapper{ width:100%; background:url(../images/effect-bg.png) no-repeat center 60px;}
+#header{ width:1000px; margin:0 auto; position:relative;}
+#header .logo{ font-weight:normal; font-size:30px; color:#0055A8; float:left; margin:14px 0 0 36px;}
+#header .logo span{ color:#0AA8A9; font-family:"Arial Black";}
+.slogan{ background:url(../images/slogan-pic.png) no-repeat 0 0; width:565px; height:452px; float:left; clear:left; margin-top:4px; }
+.badge{ position:absolute; background:url(../images/badge.png) no-repeat; width:189px; height:193px; top:6px; left:361px;}
+.quicklink{ position:absolute; left:230px; top:475px;}
+.quicklink strong{ font-size:14px; color:#8E8E8E; padding-right:10px; text-transform:uppercase;}
+.quicklink img{ vertical-align:middle; border:0;}
+.form-arrow{ position:absolute; right:18px; top:512px; background:url(../images/form-bg-arrow.png) no-repeat; width:30px; height:44px;}
+.form{ position:absolute; top:1px; right:0; background:url(../images/form-bg.png) no-repeat 0 0; height:491px; width:416px; padding:20px 0 0 19px;}
+.form h1{ font-size:24px; color:#FFFFFF; font-weight:normal; letter-spacing:-0.5pt; padding:0 0 20px 10px;}
+.form form{ clear:both; padding:20px 0;line-height:30px;}
+.form form label{ float:left; width:146px; margin-right:17px;font-size:20px; font-weight:bold;text-align:right; text-transform:uppercase;}
+.form form input{ padding:3px 2px;}
+.form form strong{font-size:20px; font-weight:bold;}
+.form form .submit_btn{ background:url(../images/submit_btn.png) no-repeat; width:235px; height:62px; border:0; cursor:pointer; margin-left:46px; margin-top:27px;}
+.form form .submit_btn span{ display:none;}
+
+#content{ width:954px; margin:0 auto; background:url(../images/curve_mid_repeat.png) repeat-y 0 0;}
+#content h1{ font-family:"Arial Black"; font-size:28px; text-transform:uppercase; color:#fff; text-align:center; margin:5px 0 10px 0 ;}
+#content h2{font-size:22px; margin-bottom:10px;}
+#content p{ margin-bottom:10px;}
+.curve_bottom{ background:url(../images/curve_bottom.png) no-repeat; width:954px; height:21px; display:block; margin:0 auto}
+.box1{ background:url(../images/box01.png) no-repeat; width:301px; height:302px; float:left;}
+.box2{ background:url(../images/box02.png) no-repeat; width:301px; height:302px; float:left; margin:0 16px 0 15px;}
+.box3{ background:url(../images/box02.png) no-repeat; width:301px; height:302px; float:left;}
+.box1 img, .box2 img, .box3 img{ float:left; border:#D9D9D9 1px solid; padding:4px; margin:0 13px 10px 0;}
+.box1 div, .box2 div, .box3 div{ padding:0 10px; letter-spacing:.1pt; line-height:14px;}
+.box1 h1, .box2 h1, .box3 h1{ margin-bottom:8px;}
+
+.curvebox{ display:block; margin-top:20px; padding-left:8px;}
+.curvebox h1{ margin:0; padding:0;}
+.ctop_lt{ float:left; background:url(../images/curve-sprite.png) no-repeat 0 0; width:21px; height:43px; font-size:0;}
+.ctop_ctr{float:left; background:url(../images/curve-sprite.png) repeat-x 0 -90px; width:889px; height:43px; line-height:28px;}
+.ctop_rt{float:left; background:url(../images/curve-sprite.png) no-repeat 0 -45px; width:21px; height:43px;font-size:0;}
+.ccontent{ clear:both; width:887px; padding:10px 20px 1px 20px; border-left:#F4B931 2px solid;border-right:#F4B931 2px solid; background:url(../images/curve_content_repeat.png) repeat-x 0 bottom;}
+.cbottom_lt{float:left; background:url(../images/curve-sprite.png) no-repeat 0 -135px; width:21px; height:21px; font-size:0;}
+.cbottom_ctr{float:left; background:#EDEDED; border-bottom:#F4B931 2px solid; width:889px; height:19px; font-size:0;}
+.cbottom_rt{float:left; background:url(../images/curve-sprite.png) no-repeat 0 -158px; width:21px; height:21px; font-size:0;}
+.content{ margin-left:259px;}
+.image{ float:left; position:relative;}
+.image img{ position:absolute; left:20px; top:71px;}
+.clear{ clear:both; font-size:0; line-height:0;height:0;}
+
+#footer{ clear:both; color:#939393; text-align:center; height:33px; padding:3px 0 0 0;}
